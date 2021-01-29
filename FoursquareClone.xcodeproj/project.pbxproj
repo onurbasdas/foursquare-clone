@@ -17,6 +17,7 @@
 		B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923498C25C45A3000E204CC /* PlacesVC.swift */; };
 		B923499225C461BF00E204CC /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923499125C461BF00E204CC /* AddPlaceVC.swift */; };
 		B923499625C4633400E204CC /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923499525C4633400E204CC /* MapVC.swift */; };
+		B923499A25C4674900E204CC /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923499925C4674900E204CC /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B923498C25C45A3000E204CC /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		B923499125C461BF00E204CC /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
 		B923499525C4633400E204CC /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		B923499925C4674900E204CC /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 		FF88C14BB569096FD148AEC8 /* Pods-FoursquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.release.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 				B923498C25C45A3000E204CC /* PlacesVC.swift */,
 				B923499125C461BF00E204CC /* AddPlaceVC.swift */,
 				B923499525C4633400E204CC /* MapVC.swift */,
+				B923499925C4674900E204CC /* DetailsVC.swift */,
 				B923497025C4381300E204CC /* Main.storyboard */,
 				B923497325C4381400E204CC /* Assets.xcassets */,
 				B923497525C4381400E204CC /* LaunchScreen.storyboard */,
@@ -218,6 +221,7 @@
 				B923499625C4633400E204CC /* MapVC.swift in Sources */,
 				B923496B25C4381300E204CC /* AppDelegate.swift in Sources */,
 				B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */,
+				B923499A25C4674900E204CC /* DetailsVC.swift in Sources */,
 				B923499225C461BF00E204CC /* AddPlaceVC.swift in Sources */,
 				B923496D25C4381300E204CC /* SceneDelegate.swift in Sources */,
 			);
