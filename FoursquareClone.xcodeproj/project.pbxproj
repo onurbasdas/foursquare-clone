@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		B923497225C4381300E204CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B923497025C4381300E204CC /* Main.storyboard */; };
 		B923497425C4381400E204CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B923497325C4381400E204CC /* Assets.xcassets */; };
 		B923497725C4381400E204CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B923497525C4381400E204CC /* LaunchScreen.storyboard */; };
+		B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923498C25C45A3000E204CC /* PlacesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B923497325C4381400E204CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B923497625C4381400E204CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B923497825C4381400E204CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B923498C25C45A3000E204CC /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		FF88C14BB569096FD148AEC8 /* Pods-FoursquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.release.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				B923496A25C4381300E204CC /* AppDelegate.swift */,
 				B923496C25C4381300E204CC /* SceneDelegate.swift */,
 				B923496E25C4381300E204CC /* ViewController.swift */,
+				B923498C25C45A3000E204CC /* PlacesVC.swift */,
 				B923497025C4381300E204CC /* Main.storyboard */,
 				B923497325C4381400E204CC /* Assets.xcassets */,
 				B923497525C4381400E204CC /* LaunchScreen.storyboard */,
@@ -88,7 +91,6 @@
 				85FEB54D6DC98ACFEA2BD074 /* Pods-FoursquareClone.debug.xcconfig */,
 				FF88C14BB569096FD148AEC8 /* Pods-FoursquareClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +210,7 @@
 			files = (
 				B923496F25C4381300E204CC /* ViewController.swift in Sources */,
 				B923496B25C4381300E204CC /* AppDelegate.swift in Sources */,
+				B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */,
 				B923496D25C4381300E204CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
