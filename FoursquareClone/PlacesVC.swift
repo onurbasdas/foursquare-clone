@@ -21,6 +21,7 @@ class PlacesVC: UIViewController {
         navigationController?.navigationBar.topItem?.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: UIBarButtonItem.Style.plain, target: self, action: #selector(logoutButtonClicked))
     }
     @objc func addButtonClicked(){
+        self.performSegue(withIdentifier: "toAddPlaceVC", sender: nil)
         
     }
     @objc func logoutButtonClicked(){

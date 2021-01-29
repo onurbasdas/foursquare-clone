@@ -15,6 +15,8 @@
 		B923497425C4381400E204CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B923497325C4381400E204CC /* Assets.xcassets */; };
 		B923497725C4381400E204CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B923497525C4381400E204CC /* LaunchScreen.storyboard */; };
 		B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923498C25C45A3000E204CC /* PlacesVC.swift */; };
+		B923499225C461BF00E204CC /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923499125C461BF00E204CC /* AddPlaceVC.swift */; };
+		B923499625C4633400E204CC /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923499525C4633400E204CC /* MapVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B923497625C4381400E204CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B923497825C4381400E204CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B923498C25C45A3000E204CC /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		B923499125C461BF00E204CC /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		B923499525C4633400E204CC /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		FF88C14BB569096FD148AEC8 /* Pods-FoursquareClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoursquareClone.release.xcconfig"; path = "Target Support Files/Pods-FoursquareClone/Pods-FoursquareClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +81,8 @@
 				B923496C25C4381300E204CC /* SceneDelegate.swift */,
 				B923496E25C4381300E204CC /* SignUpVC.swift */,
 				B923498C25C45A3000E204CC /* PlacesVC.swift */,
+				B923499125C461BF00E204CC /* AddPlaceVC.swift */,
+				B923499525C4633400E204CC /* MapVC.swift */,
 				B923497025C4381300E204CC /* Main.storyboard */,
 				B923497325C4381400E204CC /* Assets.xcassets */,
 				B923497525C4381400E204CC /* LaunchScreen.storyboard */,
@@ -209,8 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B923496F25C4381300E204CC /* SignUpVC.swift in Sources */,
+				B923499625C4633400E204CC /* MapVC.swift in Sources */,
 				B923496B25C4381300E204CC /* AppDelegate.swift in Sources */,
 				B923498D25C45A3000E204CC /* PlacesVC.swift in Sources */,
+				B923499225C461BF00E204CC /* AddPlaceVC.swift in Sources */,
 				B923496D25C4381300E204CC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
